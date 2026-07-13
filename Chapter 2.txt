@@ -1,0 +1,17 @@
+Transforming JDBC Query results into Json files with Jackson API and POJO Implementation 
+
+Understand and Implement Docker to provide virtualization Environments for Automation tests
+
+Implement VM free Solution through declarative syntax scripts to achieve cd/CI
+
+dynamically create the data from API response  and databases for Web Automation Input
+
+Understand in writing and executing Window Batch Scripts for Jenkins Integration 
+
+Continuous Monitor of Server logs files with Java Code for checking if Server is up and running 
+
+Integrate Data provider TestNG with Excel/XML for implementing robust solution in Data driven Framework 
+
+Understand Java latest features Lambda Expressions in writing minimal optimised code
+
+Got and it's commands

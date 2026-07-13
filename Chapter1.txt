@@ -1,0 +1,9 @@
+Automation
+is not limited to Automating Web and API Test Cases
+Trigger 10 different tests in 10 different machines
+
+Solution is making docerization apart from selenium Grid
+
+SDET/Architect to fullfill such skillset
+
+This course guides and bridges the gap between QA Engineer to SDET/Test Architect by teaching essential skill set required to solve practical challenges which SDET are expected to perform 

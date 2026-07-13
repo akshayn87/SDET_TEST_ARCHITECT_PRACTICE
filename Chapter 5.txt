@@ -1,0 +1,52 @@
+There is a book store company where people can buy books online
+
+Database stores all the data having tables such as
+CourseName
+Purchase Date
+Amount 
+Location 
+
+Anyone who buys books there transaction is stored in Database
+
+They are maintaining 2 databases 
+Asian Transaction DB
+Main Database
+
+At end of day they run Batch Jobs to move the data from Asian databases to Main Database
+
+We have to test if the job got created in this first database for asian records is successfully stored in new database or not
+
+Developer Team has provide one API which query the asian database and give the output in the Json File
+This Json file is used to query main Database to check whether all asian records are transferred in the main Database or not 
+
+QA Engineer gets the records manually by quering the Asian Databases
+For all the records in database have to create the Json file
+
+{
+"courseName":"Appium",
+"purchase Date":"2026-04-13",
+"location":"Asia",
+"amount":99
+}
+
+As SDET you asked to write a code such that code hit query for this database and it should receive results and after retriving these results your java code should read this whole record and it should automatically convert to Json and from Json Payload ,it should hit this API and it should get the response
+Everything should be automated
+When Batch Job Runs 4 pm daily
+,qa cannot sit and do this manual work
+so they want to build this whole automation suite such that after batch jobs are completed you should automatically trigger your script such that will go get the records,converts the Json ,send it to the API and then give the result
+
+What to Automate?
+Create Mock Tables is database
+Create records in the database as prerequisite 
+
+Then you have to connect the database through java code and retrieve records from table
+
+Convert the results of Table into Java object with help of POJO class implementation 
+
+Build Array List to store multiple records from db table and create objects from each element of list
+
+convert Java objects into Json files using Jackson API
+
+send Json File as input to the automation test
+
+For 100  Records should have 100 Json files and for such automation is required 
